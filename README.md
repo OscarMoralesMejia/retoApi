@@ -7,4 +7,7 @@
 virtualenv <Nombre del entorno>
 .\<Nombre del entorno>\Scripts\activate
 ```
-**Paso 2** Desarrollar los metodos de la api y probarla
+**Paso 2** Desarrollar los metodos de la api y probarla, con el siguiente comando se levanta el servicio web de la api
+```
+uvicorn main:app --reload
+```
